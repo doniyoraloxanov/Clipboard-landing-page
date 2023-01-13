@@ -1,0 +1,265 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+/************************************/
+/* HERO SECTION */
+/************************************/
+
+.hero-section {
+  height: 100vh;
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
+  padding-left: 92px;
+  padding-right: 92px;
+}
+
+.hero {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  align-items: center;
+}
+
+.hero-logo {
+  width: 130px;
+  margin-top: 128px;
+  margin-bottom: 96px;
+}
+.hero-primary--heading {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.hero-description {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  margin-bottom: 48px;
+  padding: 0 320px;
+}
+.hero-btns {
+  margin-bottom: 128px;
+}
+.btn {
+  padding: 16px 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+}
+.btn--ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 8px;
+}
+.btn--mac {
+  background-color: hsl(233, 100%, 69%);
+}
+.hero-secondary {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.hero-text {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  padding: 0 300px;
+}
+
+/************************************/
+/* HOW IT WORKS SECTION */
+/************************************/
+
+.container-how {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-how {
+  justify-content: center;
+}
+
+.step-one {
+  margin-top: 48px;
+  padding: 0 128px;
+}
+.step-teriary {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.step-description {
+  margin-bottom: 48px;
+  line-height: 1.6;
+}
+
+.step-two {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 128px;
+  text-align: center;
+}
+.step-two--heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.step-two--description {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+}
+.step-two--image {
+  width: 1000px;
+}
+
+.step-two--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/************************************/
+/* FEATURES SECTION */
+/************************************/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-section--heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.feature-section--description {
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 64px;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.feature {
+  padding: 0 32px 128px 32px;
+}
+.feature-logo {
+  margin-bottom: 32px;
+}
+.feature-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.feature-description {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+
+/************************************/
+/* FEATUREd IN SECTION */
+/************************************/
+
+.section-featured-in {
+  padding-top: 44px;
+  padding-bottom: 128px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+/************************************/
+/* DOWNLOAD SECTION */
+/************************************/
+
+.section-download {
+  text-align: center;
+  padding: 0 0 128px 0;
+}
+
+.download-header {
+  font-weight: 600;
+  width: 700px;
+  margin-left: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download-heading {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.download-description {
+  margin-bottom: 48px;
+  line-height: 1.5;
+  color: hsl(201, 11%, 66%);
+}
+
+/************************************/
+/* DOWNLOAD SECTION */
+/************************************/
+
+.section-footer {
+  background-color: hsl(201, 11%, 66%);
+  display: flex;
+  padding: 48px 0 48px 0;
+  position: relative;
+}
+.footer-logo {
+  width: 70px;
+  margin-left: 100px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 64px;
+  margin-left: 550px;
+}
+.item {
+  list-style: none;
+}
+
+.social-logos {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  gap: 32px;
+}
